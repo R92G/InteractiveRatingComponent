@@ -6,7 +6,7 @@ const onSubmit = (e) => {
   console.log(pick);
   e.preventDefault();
   if (pick) {
-    window.location.replace("http://127.0.0.1:5500/thankyou.html");
+    window.location.replace("https://r92g.github.io/InteractiveRatingComponent/thankyou.html");
   } else {
     alert("Please select a rating");
   }
